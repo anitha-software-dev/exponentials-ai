@@ -1,0 +1,111 @@
+/*!
+
+=========================================================
+* exponentials - v1.0.0
+=========================================================
+* Coded by Ecrubit
+*/
+
+$asset-base-path: '../../../../assets' !default;
+
+// Core
+
+@import "exponentials/custom/functions";
+@import "~bootstrap/scss/functions";
+
+@import "exponentials/custom/variables";
+@import "~bootstrap/scss/variables";
+
+@import "exponentials/custom/mixins";
+@import "~bootstrap/scss/mixins";
+
+// Bootstrap components
+
+@import "~bootstrap/scss/root";
+@import "~bootstrap/scss/reboot";
+@import "~bootstrap/scss/type";
+@import "~bootstrap/scss/images";
+@import "~bootstrap/scss/code";
+@import "~bootstrap/scss/grid";
+@import "~bootstrap/scss/tables";
+@import "~bootstrap/scss/forms";
+@import "~bootstrap/scss/buttons";
+@import "~bootstrap/scss/transitions";
+@import "~bootstrap/scss/dropdown";
+@import "~bootstrap/scss/button-group";
+@import "~bootstrap/scss/input-group";
+@import "~bootstrap/scss/custom-forms";
+@import "~bootstrap/scss/nav";
+@import "~bootstrap/scss/navbar";
+@import "~bootstrap/scss/card";
+@import "~bootstrap/scss/breadcrumb";
+@import "~bootstrap/scss/pagination";
+@import "~bootstrap/scss/badge";
+@import "~bootstrap/scss/jumbotron";
+@import "~bootstrap/scss/alert";
+@import "~bootstrap/scss/progress";
+@import "~bootstrap/scss/media";
+@import "~bootstrap/scss/list-group";
+@import "~bootstrap/scss/close";
+@import "~bootstrap/scss/modal";
+@import "~bootstrap/scss/tooltip";
+@import "~bootstrap/scss/popover";
+@import "~bootstrap/scss/carousel";
+@import "~bootstrap/scss/utilities";
+@import "~bootstrap/scss/print";
+
+// Custom components
+
+@import "exponentials/custom/alerts.scss";
+@import "exponentials/custom/buttons.scss";
+@import "exponentials/custom/dropdown.scss";
+@import "exponentials/custom/footer.scss";
+@import "exponentials/custom/forms.scss";
+@import "exponentials/custom/images.scss";
+@import "exponentials/custom/modal.scss";
+@import "exponentials/custom/navbar.scss";
+@import "exponentials/custom/type.scss";
+@import "exponentials/custom/icons.scss";
+@import "exponentials/custom/tables";
+@import "exponentials/custom/checkboxes-radio";
+@import "exponentials/custom/fixed-plugin";
+@import "exponentials/custom/pagination.scss";
+@import "exponentials/custom/misc.scss";
+@import "exponentials/custom/rtl.scss";
+@import "exponentials/custom/input-group.scss";
+@import "exponentials/custom/example-pages.scss";
+@import "exponentials/custom/progress.scss";
+@import "exponentials/custom/badge.scss";
+@import "exponentials/custom/pills.scss";
+@import "exponentials/custom/tabs.scss";
+@import "exponentials/custom/info-areas.scss";
+
+// Sections
+@import "exponentials/custom/sections.scss";
+
+// Vendor / Plugins
+
+@import "exponentials/custom/vendor/plugin-perfect-scrollbar.scss";
+@import "exponentials/custom/vendor/plugin-animate-bootstrap-notify.scss";
+@import "exponentials/custom/vendor/plugin-bootstrap-switch.scss";
+@import "exponentials/custom/vendor/plugin-nouislider.scss";
+@import "exponentials/custom/vendor/plugin-datetimepicker.scss";
+
+// Cards
+
+@import "exponentials/custom/card";
+@import "exponentials/custom/cards/card-chart";
+@import "exponentials/custom/cards/card-map";
+@import "exponentials/custom/cards/card-user";
+@import "exponentials/custom/cards/card-task";
+@import "exponentials/custom/cards/card-plain";
+@import "exponentials/custom/cards/card-register";
+@import "exponentials/custom/cards/card-stats";
+@import "exponentials/custom/cards/card-chart";
+
+// React Differences
+
+@import "exponentials/react/react-differences";
+
+@import "custom.scss";
+@import "mobile.scss";
